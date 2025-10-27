@@ -10,7 +10,7 @@ namespace BlkCountriesProj.Background
 {
     public class TemporalBlockCleanupService : BackgroundService
     {
-        //com
+       
         private readonly ILogger<TemporalBlockCleanupService> _logger;
         private readonly IBlockedCountryRepository _repo;
         private readonly TimeSpan _interval = TimeSpan.FromSeconds(30);
