@@ -1,0 +1,6 @@
+@BlkCountriesProj_HostAddress = http://localhost:5122
+
+GET {{BlkCountriesProj_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
